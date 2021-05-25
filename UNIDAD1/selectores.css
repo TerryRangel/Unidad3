@@ -1,0 +1,26 @@
+*{
+    background-color:cornflowerblue;
+}
+h1{
+    color:burlywood;
+    font-size: 20px;
+}
+
+div h4{
+    color: blueviolet;
+}
+
+.selector{
+    background-color: beige;
+    width: 200px;
+}
+#unico{
+    background-color: coral;
+}
+br+h4{
+    background-color: darkorchid;
+}
+[sitio="externo"]{
+    color:black;
+font-size: 20px;
+}

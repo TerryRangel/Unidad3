@@ -1,0 +1,23 @@
+
+.contenedor{
+    background-color: rgb(136, 138, 138);
+    display: grid;
+gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(350px,250)) ;
+}
+
+.elemento{
+    background-color: brown;
+    border-radius: 6px;
+    box-shadow: 4px,4px,4px black,
+    inset 2px 2px 2px white,
+    4px 4px 4px rgb(223, 213, 23);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 40px;
+}
+

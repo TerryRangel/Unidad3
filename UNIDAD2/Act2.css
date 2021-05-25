@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(78, 180, 37);
+}
+h2{
+    text-align: center;
+    background-color: rgb(230, 201, 39);
+    color: white;
+    margin: 10px;
+}
+
+.bloque,img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 5px solid yellow;
+    box-shadow: 15px 15px 15px black;
+
+}
+.col1{
+    width: 33.33%;
+
+}
+.bloque{
+    display: flex;
+}
+.col2{
+    width: 33.33%;
+    
+}
+.col3{
+    width: 33.33%;
+}
+.im1{
+    height:60% ;
+    width: 300px;
+    padding: 10px;
+}
+.im3,.im4{
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    transform: skew(-10deg);
+    
+}
+.im6{
+    height: 400px;
+    width: 300px;
+ 
+}
+.im2{
+    height: 40%;
+    width: 190%;
+    padding: 10px;
+}
+.im7{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    transform: skew(10deg);
+ 
+}
+.im5{
+    height: 170px;
+    width: 250px;
+    padding: 10px;
+}
+.im1{
+    cursor: pointer;
+    transform: translate(10%,50px);
+}
+.im2{
+    transform: rotate(15deg);
+}
+.im4:hover{
+    transform:  rotateY(130deg); 
+}
+.im5{
+    transform: rotate(30deg);
+    
+}
+
+.im6::before{
+     width: 10%;
+     height: 10%;
+ background-color: black;
+ opacity: 0.5;
+ position: absolute;
+ top: 0;
+ right: 0;
+ 
+}
+.im3:hover{
+    cursor: pointer;
+    transform: translate(-10%,100px);
+}
+
+
+
+
+
+

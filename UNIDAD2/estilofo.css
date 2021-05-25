@@ -1,0 +1,39 @@
+.contendor{
+    width: 400px;
+    height: 400px;
+}
+#uno,#dos{
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid brown;
+}
+
+#dos{
+    position: absolute;
+    bottom: 210px;
+    left: 360px;
+}
+
+#tres,#cuatro{
+    background-color: aliceblue;
+    height: 120px;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid brown;
+
+}
+
+#cuatro{
+    position: absolute;
+    bottom: 30px;
+    left: 360px;
+}
+legend{
+    background-color: grey;
+    color: white;
+}
+#principal{
+    background-color: grey;
+}

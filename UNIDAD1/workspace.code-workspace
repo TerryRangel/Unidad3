@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Html PRBM",
+			"path": "."
+		},
+		{
+			"name": "AImagenes",
+			"path": "..\\AImagenes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Html PRBM"
+	}
+}

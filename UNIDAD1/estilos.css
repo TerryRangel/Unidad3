@@ -1,0 +1,22 @@
+
+    h2,h4{
+        background-color: darkturquoise;
+    }
+    h4{
+        color: dimgrey;
+    }
+    #unico{
+        color: darkred;
+
+    }
+    img{
+        border-radius:10%;
+    }
+    
+nav{
+    background-color: coral;
+};
+*{
+    font-size: 200px;
+}
+

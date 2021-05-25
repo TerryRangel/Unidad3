@@ -1,0 +1,22 @@
+
+*{
+    font-size: 14px;
+}
+
+.caja{
+    width: 30%;
+    padding: 5px;
+border: 1px solid black;
+
+box-sizing: border-box;
+
+background-color: antiquewhite;
+margin: 5px;
+float: left;
+}
+
+
+img{
+    width: 50%;
+}
+

@@ -1,0 +1,38 @@
+.contenedor{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    border: 2px solid yellow;
+    border-radius: 10px;
+/*flex-direction: column;*/
+    display: flex;
+   /* flex-wrap: row wrap;*/
+
+  /* justify-content:space-around ;*/
+ /* align-content: center; Solo funciona si tienes 2 o mas lineas*/
+align-content: stretch;
+
+}
+.elementos{
+    /*flex-basis:120 ; sirve para eñ ancho*/
+    width: 50px;
+    height: 40px;
+    
+    background-color: coral;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uno{
+    order: 1;/*Cambia el orden deñ elemento*/
+
+}
+.tres{
+    flex-grow: 0;
+    flex-shrink: 3;
+}
+

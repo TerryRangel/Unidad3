@@ -1,0 +1,33 @@
+.contenedor{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: repeat(3,50px);
+    /*column-gap: 10px;
+    row-gap: 15px;*/
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.elemento{
+    background-color: brown;
+    border: 1px solid white;
+    box-shadow: 4px,4px,4px black,
+    inset 2px 2px 2px white,
+    4px 4px 4px rgb(223, 213, 23);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.e1{
+  grid-column: 1/ span 3;
+
+}
+.e2{
+   /* grid-column: 1/span 1;
+grid-row: 2/span 4;*/
+grid-area:2/1/4/2 ;
+}

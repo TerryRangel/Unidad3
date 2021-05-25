@@ -1,0 +1,44 @@
+.contenedor{
+    background-color: rgb(136, 138, 138);
+    display: grid;
+
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas: 's1 s1 s1 s1 '
+                          's2 s3 s3 s4 '
+                          's5 s5 s6 s6 ';
+    
+}
+
+.elemento{
+    background-color: brown;
+    border-radius: 6px;
+    box-shadow: 4px,4px,4px black,
+    inset 2px 2px 2px white,
+    4px 4px 4px rgb(223, 213, 23);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.e1{
+     grid-area: s1 ;
+}
+.e2{
+    grid-area: s2;
+}
+.e3{
+    grid-area: s3;
+
+}
+
+.e4{
+    grid-area: s4;
+}
+.e5{
+    grid-area: s5;
+}
+.e6{
+    grid-area: s6;
+}

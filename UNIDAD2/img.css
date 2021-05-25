@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+body{
+    background-color: teal;
+   
+    margin: auto;
+    min-height: 100vh;
+}
+.elemento::before{
+   content: "";
+    width: 100%;
+    height: 100%;
+background-color: black;
+opacity: 0.5;
+position: absolute;
+top: 0;
+right: 0;
+
+}
+.contenedor{
+    width: 50%;
+    width: 50%;
+}
+.elemento{
+    border: 4px solid white;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+
+}
+img{
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+p{
+    font-size: 20px;
+    position: absolute;
+    bottom: 5px;
+    background-color: white;
+}
+
+.elemento:hover{
+    cursor: pointer;
+    transform: translate(10%,50px);
+}
